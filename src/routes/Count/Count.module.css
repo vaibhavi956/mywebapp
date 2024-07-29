@@ -1,0 +1,15 @@
+.clr{
+    color: green;
+    font-size:40px;
+    font-weight: bold;
+    text-align: center;
+}
+.clr::after{
+    content: "is";
+    color: blue;
+}
+.clr::before{
+    content: "My";
+    color: green;
+    gap: 2px;
+}
