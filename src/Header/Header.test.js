@@ -5,13 +5,13 @@ describe("header component", ()=>{
     it("header content check", ()=>{
         render(<Header></Header>)
         const eleRef=screen.getByTestId("header")
-        expect(eleRef.textContent).toBe('My first next app')
+        expect(eleRef.textContent).toBe('My first React app')
     } )
     
     test("header text length", ()=>{
         render(<Header></Header>)
         const eleRef=screen.getByTestId("header")
-        expect(eleRef.textContent).toHaveLength(17)
+        expect(eleRef.textContent).toHaveLength(18)
     } )
     
 
